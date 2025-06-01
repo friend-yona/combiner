@@ -1,0 +1,21 @@
+Package: combiner
+Title: Tools and Data for Breeding Monsters in Monster Rancher 2
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+        given  = "Yona",
+        family = "Duck-Mayr",
+        email  = "friend.yona@gmail.com",
+        role   = c("aut", "cre")
+    )
+Description: Monster Rancher 2 is a video game for the original PlayStation
+    where the player obtains monsters from a market, by unlocking them at a
+    shrine, or by combining existing monsters in a lab. The success of
+    combining two particular monsters depends on those monsters' attributes.
+    This package provides data and functions that help players determine the
+    quality of combinations and plan out breeding trees to get to a desired
+    ending monster.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
