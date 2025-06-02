@@ -6,7 +6,7 @@
     statnames = c('lif', 'pow', 'int', 'ski', 'spd', 'def')
     variables = paste(statnames, attr, sep = '_')
     attribute = unlist(combiner::monsters[i, variables])
-    return(setNames(attribute, tools::toTitleCase(statnames)))
+    return(stats::setNames(attribute, tools::toTitleCase(statnames)))
 }
 
 #' Get Information on a Monster's Stat Baselines and Gains
